@@ -1,0 +1,82 @@
+    @import "global";
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:wght@400;500&display=swap');
+     :root {
+        --roboto: 'Roboto', sans-serif;
+        --dancing: 'Dancing Script', cursive;
+        --boldRoboto: 'Roboto', sans-serif;
+        --playfair: 'Playfair Display', serif;
+    }
+    
+    $colorofwedd:#eed8d8e3;
+    nav {
+        background-color: #dfa9a9e3;
+        .logo {
+            font-family: var(--dancing);
+            font-size: 30px;
+            color: #fff;
+            transition: .5s ease;
+            margin-left: 50px;
+        }
+        a:hover {
+            text-decoration: none;
+            color: $colorofwedd;
+        }
+    }
+    
+    .fontext {
+        margin-left: 700px;
+        font-size: 40px;
+        font-family: var(--playfair);
+        margin-top: -350px;
+        color: #fff;
+    }
+    
+    .frontext {
+        margin-left: 770px;
+        margin-top: -20px;
+        font-family: var(--playfair);
+        color: #fff;
+        font-size: 1.3rem;
+    }
+    
+    h3.S {
+        font-family: var(--dancing);
+    }
+    
+    // Image html's style
+    .item {
+        transition: .5s ease-in-out;
+    }
+    
+    .item:hover {
+        filter: brightness(80%);
+    }
+    
+    .social-links {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1.4rem;
+    }
+    
+    .social-links a {
+        border: 2px solid rgb(201, 212, 216);
+        color: #393b3f;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        margin: 0 .3rem;
+        transition: all .5s ease;
+    }
+    
+    .social-links a:hover {
+        background: #dfa9a9e3;
+        color: var(--dark);
+    }
+    
+    .img-full {
+        width: 100%;
+    }
